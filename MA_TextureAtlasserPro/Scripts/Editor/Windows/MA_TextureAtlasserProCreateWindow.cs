@@ -7,12 +7,12 @@ using MA_Editor;
 
 namespace MA_TextureAtlasserPro
 {
-	public class MA_TextureAtlasserProCreateWindow : EditorWindow 
+	public class MA_TextureAtlasserProCreateWindow : EditorWindow
 	{
 		//Editor
 		private static MA_TextureAtlasserProCreateWindow thisWindow;
 		public static MA_TextureAtlasserProWindow curWindow;
-				
+
 		private bool linkedAtlasSize = true;
 		private bool nameError = true;
 		private bool sizeError = true;
@@ -23,7 +23,7 @@ namespace MA_TextureAtlasserPro
 		private MA_TextureAtlasserProAtlas textureAtlas;
 		private static bool isLoaded = false;
 
-		[MenuItem("MA_ToolKit/MA_TextureAtlasserPro/New Atlas")]	
+		[MenuItem("Textures/Texture Atlasser .ma./New Atlas")]
 		private static void Init()
         {
 			GetCurrentWindow();
@@ -111,7 +111,7 @@ namespace MA_TextureAtlasserPro
 				{
 					nameError = false;
 				}
-				
+
 				textureAtlasSize.x = EditorGUILayout.IntField("Atlas width", (int)textureAtlasSize.x, GUILayout.ExpandWidth(true));
 				if(linkedAtlasSize)
 				{
@@ -149,7 +149,7 @@ namespace MA_TextureAtlasserPro
 
 						if(curWindow != null)
 						{
-							curWindow.textureAtlas = textureAtlas;				
+							curWindow.textureAtlas = textureAtlas;
 						}
 						else
 						{

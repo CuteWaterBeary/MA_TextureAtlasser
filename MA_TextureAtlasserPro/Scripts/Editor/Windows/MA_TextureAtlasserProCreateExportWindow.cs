@@ -21,7 +21,7 @@ namespace MA_TextureAtlasserPro
         string settingsName = "Settings name";
         bool nameError = true;
 
-        [MenuItem("MA_ToolKit/MA_TextureAtlasserPro/New Export Settings")]
+        [MenuItem("Textures/Texture Atlasser .ma./New Export Settings")]
         public static void Init()
         {
             InitWindow(null);

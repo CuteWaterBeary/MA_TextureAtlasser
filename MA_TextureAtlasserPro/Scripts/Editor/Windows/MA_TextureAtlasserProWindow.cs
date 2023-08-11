@@ -6,7 +6,7 @@ using UnityEditor;
 
 namespace MA_TextureAtlasserPro
 {
-    public class MA_TextureAtlasserProWindow : EditorWindow 
+    public class MA_TextureAtlasserProWindow : EditorWindow
     {
         public static MA_TextureAtlasserProWindow thisWindow;
 		public MA_TextureAtlasserProSettings settings;
@@ -19,7 +19,7 @@ namespace MA_TextureAtlasserPro
 
 		private static bool isLoaded = false;		//Make sure we wait a frame at the start to setup and don't draw.
 
-        [MenuItem("MA_ToolKit/MA_TextureAtlasserPro/Atlas Editor")]
+        [MenuItem("Textures/Texture Atlasser .ma./Atlas Editor")]
         private static void Init()
         {
             GetCurrentWindow();
@@ -27,7 +27,7 @@ namespace MA_TextureAtlasserPro
             thisWindow.titleContent.text = "MA_TextureAtlasserPro";
 			thisWindow.minSize = new Vector2(375, 360);
             thisWindow.wantsMouseMove = true;
-			
+
 			thisWindow.Show();
         }
 
@@ -88,7 +88,7 @@ namespace MA_TextureAtlasserPro
 				GetCurrentWindow();
 				return;
 			}
-			
+
 			//Check views
 			if(settings == null || workView == null || menuView == null || inspectorView == null || debugView == null)
 			{
@@ -107,13 +107,13 @@ namespace MA_TextureAtlasserPro
 
             //Draw views and windows in the right oder from back to front
 			if(isLoaded)
-			{			
-				workView.UpdateView(e, workViewRect);	
-				debugView.UpdateView(e, debugViewRect);	
+			{
+				workView.UpdateView(e, workViewRect);
+				debugView.UpdateView(e, debugViewRect);
 				inspectorView.UpdateView(e, inspectorViewRect);
 				menuView.UpdateView(e, menuViewRect);
 			}
-	
+
 			Repaint();
 
 			if(e.type == EventType.Repaint)
