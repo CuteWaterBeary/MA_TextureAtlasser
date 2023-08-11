@@ -1,17 +1,17 @@
-MA_TextureAtlasserPro/Atlasses/*
-!Atlasses.txt
+# MA_TextureAtlasserPro/Atlasses/*
+# !Atlasses.txt
 
 
-MA_TextureAtlasserPro/Exports/*
-!Exports.txt
+# MA_TextureAtlasserPro/Exports/*
+# !Exports.txt
 
 
-MA_TextureAtlasserPro/Settings/*
-!Settings.txt
-!MA_TextureAtlasserProSettings.asset
+# MA_TextureAtlasserPro/Settings/*
+# !Settings.txt
+# !MA_TextureAtlasserProSettings.asset
 
 
-MA_TextureAtlasserPro/Settings/ExportSettings/*
-!ExportSettings.txt
-!MA_DefaultExportSettings.asset
-!MA_DefaultSpriteExportSettings.asset
+# MA_TextureAtlasserPro/Settings/ExportSettings/*
+# !ExportSettings.txt
+# !MA_DefaultExportSettings.asset
+# !MA_DefaultSpriteExportSettings.asset
