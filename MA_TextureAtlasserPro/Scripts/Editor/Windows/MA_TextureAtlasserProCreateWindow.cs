@@ -23,7 +23,7 @@ namespace MA_TextureAtlasserPro
 		private MA_TextureAtlasserProAtlas textureAtlas;
 		private static bool isLoaded = false;
 
-		[MenuItem("Textures/Texture Atlasser .ma./New Atlas")]
+		[MenuItem("Mesh+Bones/Atlassing/Texture Atlasser .ma./New Atlas")]
 		private static void Init()
         {
 			GetCurrentWindow();

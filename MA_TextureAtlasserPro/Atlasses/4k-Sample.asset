@@ -15,7 +15,7 @@ MonoBehaviour:
   textureQuads: []
   selectedTextureQuad: {fileID: 0}
   showTextures: 1
-  exportSettings: {fileID: 11400000, guid: c2cddf16911d9a94eb93483448341d7c, type: 2}
+  exportSettings: {fileID: 11400000, guid: dadab01a13a0116478e5ce92b1823faf, type: 2}
   textureAtlasSize: {x: 4096, y: 4096}
   textureGroupRegistration:
   - name: Albedo

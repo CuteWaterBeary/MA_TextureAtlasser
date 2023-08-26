@@ -19,7 +19,7 @@ namespace MA_TextureAtlasserPro
 
 		private static bool isLoaded = false;		//Make sure we wait a frame at the start to setup and don't draw.
 
-        [MenuItem("Textures/Texture Atlasser .ma./Atlas Editor")]
+        [MenuItem("Mesh+Bones/Atlassing/Texture Atlasser .ma./Atlas Editor")]
         private static void Init()
         {
             GetCurrentWindow();

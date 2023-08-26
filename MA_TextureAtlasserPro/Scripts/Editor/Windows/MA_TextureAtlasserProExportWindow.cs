@@ -21,7 +21,7 @@ namespace MA_TextureAtlasserPro
         private static bool isLoaded = false;       //Make sure we wait a frame at the start to setup and don't draw.
         private Vector2 scrollPos;
 
-        [MenuItem("Textures/Texture Atlasser .ma./Export Atlas")]
+        [MenuItem("Mesh+Bones/Atlassing/Texture Atlasser .ma./Export Atlas")]
 		private static void Init()
         {
             GetCurrentWindow();
